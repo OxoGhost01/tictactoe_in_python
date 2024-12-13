@@ -28,6 +28,7 @@ class Menu:
                     return 4
             else:
                 pygame.draw.line(self.screen, (255, 255, 255), (500, 740), (680, 740), 5)
+        return 0
 
     def main(self):
         image = pygame.image.load("morpion2.png")
