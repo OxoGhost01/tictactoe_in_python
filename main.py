@@ -60,7 +60,7 @@ while True:
                 coord = jeu.souris(pygame.mouse.get_pos())
                 jeu.clic(coord[0], coord[1])
         if event.type == event.type == KEYDOWN:
-            if event.key == K_SPACE and fin:
+            if event.key == K_SPACE:
                 game = False
                 fin = False
                 jeu = Jeu(screen)
